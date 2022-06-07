@@ -1,0 +1,39 @@
+git config --global user.name "Mohamed Azzam"
+
+git config --global user.email mohamedazzam1996@gmail.com
+
+git init 
+
+
+git remote add origin linkofGithubRepo
+
+git add <filename> 
+
+git add . 
+
+git commit -m "Commit message"
+
+git push origin <branchname>
+
+git push origin master 
+
+
+git clone link OfRepo In Github 
+
+git status 
+
+git log
+
+
+git pull
+
+git checkout <branchname>
+
+
+git checkout -b <branchname>
+
+git branch -d <branchname>
+
+
+git merge <branchname>
+
