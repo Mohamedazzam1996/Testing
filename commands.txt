@@ -1,42 +1,54 @@
+// set the user name that will be shown in the comment in the commit 
 git config --global user.name "Mohamed Azzam"
 
+// set the mail that will be shown in the comment in the commit 
 git config --global user.email mohamedazzam1996@gmail.com
 
+// intalize local repo 
 git init 
 
-
+// link your local repo to remote repo 
 git remote add origin linkofGithubRepo
 
+// add your files to stadging area 
 git add <filename> 
-
 git add . 
 
+// record and take snapshot from the current state
 git commit -m "Commit message"
+
 
 git push origin <branchname>
 
+// push commits to your branch
 git push origin master 
 
-
+// get a project copy from remote repo to your local repo 
 git clone link OfRepo In Github 
 
+// get the status of tracked and untracked files
 git status 
 
+// get the log for commits
 git log
 
+// get the changes from remote repo to your local repo
+git pull origin master 
 
-git pull
-
+// delete branch locally
 git checkout <branchname>
 
+// delete branch locally
+git branch -d localBranchName
 
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+// create new branch and switch to it 
 git checkout -b <branchname>
 
-git branch -d <branchname>
-
-git merge <branchname>
 
 
-# this written by Mohamed Azzam
-###############################
-*******************************
+
+
+
